@@ -1,0 +1,50 @@
+<html>
+<head>
+	<title>工B206图书登录模块</title>
+	<meta charset="utf-8">
+        <link href="../css/login.css" type="text/css" rel="stylesheet" />
+</head>
+<body id="login_body" class="login_body">
+ 
+    <div id="login_img">
+        <ul>
+        <li id="left_img" class="left_img"></li>
+        <li class="right_img"></li>
+        <li class="login_ico1"></li>
+         <li class="login_ico2"></li>
+        
+        </ul>
+    </div>
+    <form id="login_check" action="../php/login.check.php" method="post">
+        <div class="user_login">
+            <ul>
+                <li class="name_text">用户名：</li>
+                <li class="name_input">
+                    <input class="input_style" id="input_style" name="username" type="text">
+                </li>
+
+            </ul>
+            <ul>
+                <li class="psw_text">密码：</li>
+                <li class="psw_input">
+                    <input class="input_style" id="input_style" name="password" type="password">
+                </li>
+
+            </ul>
+
+            <ul>
+                <li>
+                    <input class="login" id="login" name="login" type="submit" value="登录">
+                    <input class="reset" id="reset" name="reset" type="reset" value="清空">
+                   
+                </li>
+                <li class="find_psw">
+                    <a href="register.html">还没有注册?</a>
+                </li>
+            </ul>
+
+        </div>
+    </form>
+</body>
+	
+</html>

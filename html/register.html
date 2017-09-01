@@ -1,0 +1,56 @@
+<html>
+ 
+<head>
+	<title>工B206图书注册模块</title>
+	<meta charset="utf-8">
+        <link href="../css/login.css" type="text/css" rel="stylesheet" />
+     
+</head>
+<body id="login_body" class="login_body">
+    <div id="login_img">
+        <ul>
+        <li id="left_img" class="left_img"></li>
+        <li class="register"></li>
+        <li class="login_ico1"></li>
+        <li class="login_ico2"></li>
+        <li class="login_ico3"></li>
+        
+        </ul>
+    </div>
+    <form id="login_check" action="../php/register.php" method="post">
+        <div class="register_box">
+            <ul>
+                <li class="register_name_text">姓名：</li>
+                <li class="register_name_input">
+                    <input class="input_style" id="input_style" name="username" type="text">
+                    
+                </li>
+
+            </ul>
+            <ul>
+                <li class="register_psw_text">密码：</li>
+                <li class="register_psw_input">
+                    <input class="input_style" id="input_style" name="password" type="password">
+                </li>
+
+            </ul>
+           <ul>
+                <li class="register_number_text">学号：</li>
+                <li class="register_number_input">
+                    <input class="input_style" id="input_style" name="idnumber" type="text">
+                </li>
+
+            </ul>
+            <ul>
+                <li>
+                    <input class="register_button" id="register" name="register_button" type="submit" value="注册">
+                    <input class="reset_button" id="reset" name="reset" type="reset" value="清空">
+                </li>
+               
+            </ul>
+
+        </div>
+    </form>
+</body>
+	
+</html>

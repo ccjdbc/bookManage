@@ -1,0 +1,75 @@
+.login_body{
+    height: 600px;
+    width: 960px;
+    background-image: url(../images/login_bg.jpg);
+    background-repeat: repeat-x;
+}
+li{ list-style:none;
+    
+}
+.left_img{
+    width: 422px;
+    height:265px;
+    background-image: url(../images/left_img.gif);
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.right_img{
+    background-image: url(../images/right_img.gif);
+    width: 462px;
+    height: 340px;
+    margin-left: 422px;
+    margin-top: -280px;
+    
+}
+.login_ico1{
+    background-image: url(../images/login_ico1.gif);
+    width: 30px;
+    height: 27px;
+    margin-top: -240px;
+    margin-left: 530px;
+}
+.login_ico2{
+    background-image: url(../images/login_ico2.gif);
+    width: 28px;
+    height: 27px;
+    margin-top: 30px;
+    margin-left: 527px;
+}
+.login_ico3{
+    background-image: url(../images/login_ico3.gif);
+    width: 28px;
+    height: 27px;
+    margin-top: 30px;
+    margin-left: 527px;
+}
+.user_login{
+    margin-left: 550px;
+    margin-top: -103px;
+    
+    
+}
+.register_box{
+    margin-left: 550px;
+    margin-top: -163px;
+}
+.login{
+    margin-left:25px; 
+}
+.reset{
+    margin-left: 18px;
+}
+.find_psw{
+    margin-top: 40px;
+    margin-left: 210px;
+}
+.register{
+    background-image: url(../images/register.jpg);
+    width: 462px;
+    height: 340px;
+    margin-left: 422px;
+    margin-top: -280px;
+}
+.register_button{
+    margin-left: 35px;
+}

@@ -1,0 +1,58 @@
+<html>
+<head>
+	<title>捐赠图书</title>
+	<meta charset="utf-8">
+	<link href="../css/style.css" type="text/css" rel="stylesheet" />
+	<!--css文件-->
+	<style type="text/css">
+	
+	 td { 
+	width:340px; 
+	height: 30px;
+	} 
+	
+</style>
+
+</head>
+<body style="background-color:#FFF; width:680px; height:1680px; margin:0 auto">
+	<div style="height:200px; text-align:center; margin:0 auto;">
+	<a><img src="../images/head.jpg"/></a>
+	</div>
+    <div  class="addbook_div">
+           
+	</div>
+	<!--捐赠页面数据保存到addshu.php-->
+<form action="../php/addBook.php" method="post">
+<table border="1" cellspacing="0" cellpadding="0">
+	
+	<tr >
+		<td  align="center">*图书编码</td>
+		<td><input name="booknum" type="text" style="height:40px ; width:340px; border:0px" placeholder="请输入图书编码"></td>
+	</tr>
+	<tr >
+		<td align="center">*图书名称</td>
+		<td><input name="bookname" type="text" style="height:40px; width:340px; border:0px" placeholder="请输入图书名称"></td>
+	</tr>
+	<tr >
+		<td align="center">*出版社</td>
+		<td><input name="publishing" type="text" style="height:40px; width:340px; border:0px" placeholder="请输入出版社"></td>
+	</tr>
+	<tr >
+		<td align="center">*作者</td>
+		<td><input name="editor" type="text" style="height:40px; width:340px; border:0px" placeholder="请输入作者名称"></td>
+	</tr>
+	<tr >
+		<td align="center">*捐赠人姓名</td>
+		<td><input name="donateperson" type="text" style="height:40px; width:340px; border:0px" placeholder="请输入捐赠者姓名" ></td>
+	</tr>
+	
+	<tr >
+		<td align="center" style="height:40px" size="45" colspan="2">
+		<input  type="submit" value="提交">
+		<input  type="reset" value="清空"></td>
+		
+	</tr>
+</table>
+</form>
+</body>
+</html>
